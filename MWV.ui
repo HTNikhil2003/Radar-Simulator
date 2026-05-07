@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MWV</class>
+ <widget class="QFrame" name="MWV">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QGroupBox" name="topBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>390</y>
+     <width>561</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(136, 138, 133);
+background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="title">
+    <string>Communications:</string>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>34</y>
+      <width>16</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>66</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Garble:</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_26">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>60</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>OFF</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_27">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>60</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>GARBLE 2</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_28">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>60</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>GARBLE 1</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>292</y>
+     <width>561</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(136, 138, 133);
+background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="title">
+    <string>Status:</string>
+   </property>
+   <widget class="QRadioButton" name="status_Valid">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Valid</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="status_Invalid">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>51</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Invalid</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>12</y>
+     <width>90</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#8ae234;&quot;&gt;Water Angle:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MWV_confirm">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>520</y>
+     <width>94</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MWV_cancel">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>520</y>
+     <width>94</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>53</y>
+     <width>90</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#8ae234;&quot;&gt;Water Speed:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="waterSpeed">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>130</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="maximum">
+    <double>100.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>14</y>
+     <width>120</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#8ae234;&quot;&gt;Deg (0.0 - 359.9)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>94</y>
+     <width>561</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(136, 138, 133);
+background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="title">
+    <string>Speed Units:</string>
+   </property>
+   <widget class="QRadioButton" name="rb_Kn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Kn</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_kmph">
+    <property name="geometry">
+     <rect>
+      <x>399</x>
+      <y>40</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Km</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_mps">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>54</y>
+     <width>110</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#8ae234;&quot;&gt;Kn(0.0 - 100.0)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>190</y>
+     <width>561</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(136, 138, 133);
+background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="title">
+    <string>Wind Reference:</string>
+   </property>
+   <widget class="QRadioButton" name="wind_RefTrue">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>True</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="wind_RefRelative">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>51</y>
+      <width>110</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(114, 159, 207);</string>
+    </property>
+    <property name="text">
+     <string>Relative</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QDoubleSpinBox" name="waterAngle">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>130</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="maximum">
+    <double>360.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>560</y>
+     <width>84</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(114, 159, 207);</string>
+   </property>
+   <property name="text">
+    <string>ON</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>560</y>
+     <width>84</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(239, 41, 41);</string>
+   </property>
+   <property name="text">
+    <string>OFF</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

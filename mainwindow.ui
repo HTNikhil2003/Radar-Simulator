@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="RMC_PB">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1000</y>
+      <width>84</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RMC</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtRMC">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>920</y>
+      <width>104</width>
+      <height>70</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
